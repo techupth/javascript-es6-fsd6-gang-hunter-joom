@@ -1,5 +1,6 @@
-function sum() {
-  // Start coding here !
+// Exercise #5: Rest operators
+function sum(...input) {
+  return input.reduce((acc,cur) => acc + cur ,0)
 }
 
 let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
