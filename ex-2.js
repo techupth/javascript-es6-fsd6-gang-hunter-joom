@@ -11,7 +11,7 @@ let studentScores = {
   english: 70,
   tech: 100,
 };
-
+let newStudentProfile = {...studentProfile,scores:{...studentProfile.scores,...studentScores}}
 // Start coding here
 
 console.log(newStudentProfile);
